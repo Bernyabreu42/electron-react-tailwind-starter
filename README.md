@@ -1,4 +1,4 @@
-# ⚡️ Electro React TypeScript Tailwind ShadCN Boilerplate
+# ⚡️ Electro React TypeScript Tailwind ShadCN y React Router Boilerplate
 
 Plantilla moderna y modular para crear aplicaciones de escritorio utilizando **Electron**, **React**, **Tailwind CSS**, **TypeScript** y **ShadCN UI**.
 
