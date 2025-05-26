@@ -59,7 +59,7 @@ Este repositorio es ideal para quienes desean comenzar rápido con un stack mode
 ```bash
 # Clona el repositorio
 git clone https://github.com/tu-usuario/electro-react-boilerplate.git
-cd electro-react-boilerplate
+cd electron-react-tailwind-starter
 
 # Instala dependencias (usa npm o bun)
 npm install
