@@ -138,8 +138,12 @@ export default defineConfig({
 > ⚠️ Importante: para que funcione correctamente, en `tsconfig.node.json` debes usar:
 
 ```json
+"compilerOptions": {
 "module": "esnext",
-"moduleResolution": "bundler"
+"moduleResolution": "bundler",
+...
+}
+
 ```
 
 Puedes seguir la [guía oficial de Tailwind para Vite](https://tailwindcss.com/docs/installation/using-vite).
