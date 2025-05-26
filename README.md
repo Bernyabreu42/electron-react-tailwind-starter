@@ -139,9 +139,8 @@ export default defineConfig({
 
 ```json
 "compilerOptions": {
-"module": "esnext",
-"moduleResolution": "bundler",
-...
+  "module": "esnext",
+  "moduleResolution": "bundler",
 }
 
 ```
