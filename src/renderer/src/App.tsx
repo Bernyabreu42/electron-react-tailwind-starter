@@ -1,13 +1,12 @@
 import Versions from './components/Versions'
 import electronLogo from './assets/electron.svg'
+import { Link } from 'react-router'
 
 function App(): React.JSX.Element {
   const ipcHandle = (): void => window.electron.ipcRenderer.send('ping')
 
   return (
     <>
-      <h1 className="text-3xl font-bold underline">Hello world!</h1>
-
       <img alt="logo" className="logo" src={electronLogo} />
       <div className="creator">Powered by electron-vite</div>
       <div className="text">
@@ -27,6 +26,11 @@ function App(): React.JSX.Element {
           <a target="_blank" rel="noreferrer" onClick={ipcHandle}>
             Send IPC
           </a>
+        </div>
+        <div className="action">
+          <Link to="/" rel="noreferrer">
+            Home
+          </Link>
         </div>
       </div>
       <Versions></Versions>
